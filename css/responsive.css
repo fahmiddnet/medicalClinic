@@ -1,0 +1,174 @@
+/************IPad**************/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body {
+        background-color: rgb(3, 78, 13);
+    }
+    .mobilemenu{
+        display: block;
+    }
+    .menu-bar{
+        display: none;
+    }
+    /* banner section start */
+    .banner-section{
+        height:800px;
+      }
+    .banner-text{
+        padding: 55px 0 35px 0;
+        /* border: 1px solid red; */
+      }
+    .banner-text .learge-title{
+        font-size: 50px;
+        line-height: 60px;
+        padding:0 40% 0 0;
+    }
+    .banner-text h4{
+        font-size: 26px;
+        line-height: 36px;
+      }
+    /* banner section end  */
+    /* Apoinment and hour section start */
+    .apoinment-hour-section{
+        margin-top: -290px;
+    }
+    .card-lg{
+        padding: 30px 35px 0 35px;
+    }
+    /* Apoinment and hour section end */
+
+    /* service section start */
+    .box .box-content{
+        padding: 90px 20px 70px 30px;
+      }
+    /* service section end */
+
+
+    /* our patient say obout us section start */
+    .about-container p{
+        font-size: 18px;
+      }
+      /* our patient say obout us section end */
+
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+            background-color: brown !important;
+        }
+    
+        .mobilemenu {
+            display: block;
+        }
+    
+        .menu-bar {
+            display: none;
+        }
+    
+        /* banner section start */
+        .banner-section {
+            height: 800px;
+        }
+    
+        .banner-text {
+            padding: 95px 0 45px 0;
+            /* border: 1px solid red; */
+        }
+    
+        .banner-text .learge-title {
+            font-size: 50px;
+            line-height: 60px;
+            padding: 0 40% 0 0;
+        }
+    
+        .banner-text h6 {
+            padding: 0 35% 0 0;
+        }
+    
+        .banner-text h4 {
+            padding: 0 35% 0 0;
+            font-size: 26px;
+            line-height: 36px;
+        }
+    
+        /* banner section end  */
+    
+        /* Apoinment and hour section start */
+        .apoinment-hour-section {
+            margin-top: -240px;
+        }
+    
+        .card-lg {
+            margin: 50px 95px 0 95px;
+            padding: 50px 35px 0 35px;
+            margin-bottom: 0px;
+        }
+    
+        .our-experienced-doctors .card-lg {
+            margin: 0;
+        }
+    
+        /* Apoinment and hour section end */
+    
+        /* service section start */
+        .box .box-content {
+            padding: 90px 20px 70px 30px;
+        }
+    
+        /* service section end */
+    
+    
+        /* our patient say obout us section start */
+        .about-container p {
+            font-size: 18px;
+        }
+    
+        /* our patient say obout us section end */
+
+        /* base section start  */
+        .base-section .social-icons{
+            display: none;
+        }
+
+
+
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: rgb(41, 214, 177) !important;
+    }
+    .mobilemenu{
+        display: block;
+    }
+    .menu-bar{
+        display: none;
+    }
+
+    /* timeline-css  */
+    .timeline-content{
+        padding: 10px 40px;
+        margin-bottom: 20px;
+        position: relative;
+        background-color: inherit;
+        width: 100%;
+    }
+    
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    body {
+        background-color: rgb(26, 3, 69) !important;
+    }
+
+    
+}

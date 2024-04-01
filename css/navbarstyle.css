@@ -1,0 +1,113 @@
+/* Top section start  */
+.top-section{
+    padding:15px 0;
+    color: #99a9b5;
+    position: relative;
+  }
+  .top-section .contact{
+    float: left;
+  }
+  .top-section .contact p{
+    font-size: 13px;
+    padding-right: 15px;
+    display: inline;
+  }
+  .contact p img{
+    padding-right: 5px;
+  }
+  .top-section .social-icon{
+    display: inline-block;
+  }
+  .top-section .social-icon img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .top-section .top-small-menu{
+    float: right;
+  }
+  .top-small-menu ul li {
+    float: left;
+  }
+  .top-small-menu a{
+    color: #99a9b5;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  .top-small-menu a img{
+    padding-right: 5px;
+  }
+  .btn-small{
+    display: inline-block;
+  }
+  .btn-small a{
+    text-align: center;
+    font-size: 13px;
+    padding: 10px 15px;
+    font-weight: 700;
+    background-color: #eb5353;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+  /* top section end  */
+
+  /* Nav section start  */
+.nav-section{
+    position: sticky;
+    top: 0;
+    padding: 30px 0;
+    z-index: 500;
+  }
+  .mobilemenu{
+    display: none;
+  }
+  .menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .menu-bar{
+    padding: 10px 0;
+  }
+  .menu-bar ul li{
+    float: left;
+  }
+  .menu-bar p{
+    cursor: pointer;
+    margin-right: 22px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    transition:0.2s ease-in;
+  }
+  .menu-bar p:hover{
+    outline-offset: 5px;
+    outline: 2px solid rgb(255, 255, 255);
+  }
+  .dropdown-menu-custom{
+    color: #fff;
+  }
+  .dropdown-menu-custom .dropdown-menu{
+    background-color: #ffffff;
+    margin-top: 40px !important;
+    color: black;
+    margin-left: -8px !important;
+    border-radius: 0;
+  }
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+  .dropdown-menu-custom .dropdown-menu a{
+  }
+  .search-area img{
+    padding-left: 15px;
+  }
+  /* Nav section end  */
