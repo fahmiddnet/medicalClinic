@@ -175,6 +175,8 @@ select:has(option:disabled:checked[hidden]) {
 /* about section end  */
 
 /* service section start */
+.service-section{
+}
 .box{
   display: flex;
   flex-direction: column;
@@ -195,6 +197,7 @@ select:has(option:disabled:checked[hidden]) {
   margin-bottom: 40px;
 }
 .box .box-content p{
+  justify-content: left;
   font-size: 14px;
   line-height: 24px;
   color: #5f727f;
@@ -202,6 +205,9 @@ select:has(option:disabled:checked[hidden]) {
 .box .box-content i{
   padding-right: 10px;
   color: #eb5353;
+}
+.box .box-content p span{
+  display: inline-block;
 }
 .box .box-content .large-btn{
   margin-top: 20px;
@@ -299,7 +305,6 @@ select:has(option:disabled:checked[hidden]) {
 /* what we do section start */
 .what-we-do-section {
   width: 100%;
-  border: 1px solid rgb(184, 145, 14);
 }
 .timeline-section{
   width: 100%;
@@ -316,14 +321,6 @@ select:has(option:disabled:checked[hidden]) {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 200;
-}
-.what-we-do-section .two{
-  margin-top: 10px;
-  margin-left: 1px;
-}
-.what-we-do-section .three{
-  margin-top: 10px;
-  margin-left: 2px;
 }
 .what-we-do-section .card-content .card-title{
   color: #3c3950;
@@ -373,7 +370,56 @@ select:has(option:disabled:checked[hidden]) {
   margin-top: -320px;
 }
 
-.accordion-faciliti .accordion-item{
+/* Accordian styel start  */
+
+.accordion-item {
+  border: none;
+}
+.accordion-button{
+  color: #3c3950;
+  padding-left: 0;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  font-weight: 700;
+}
+.accordion-body{
+  color: #5f727f;
+  padding-left: 0;
+}
+.accordion-button:not(.collapsed) {
+  color: #f4616f;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-active-icon);
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+
+
+/* .accordion-button::after {
+  display: none;
+} */
+
+/* .accordion-button::before {
+  flex-shrink: 0;
+} */
+
+/* Accordian styel end  */
+
+/* .accordion-faciliti .accordion-item{
   border-bottom: 2px solid #b6c6c9;
 }
 .accordion-faciliti .accordion-text{
@@ -394,7 +440,7 @@ select:has(option:disabled:checked[hidden]) {
 
 .accordion-item .show {
   
-}
+} */
 /* what we do section end */
 
 
@@ -653,6 +699,8 @@ select:has(option:disabled:checked[hidden]) {
 }
 
 /* blog-section start  */
+.blog-section{
+}
 .blog-bg{
   height: 600px;
 }
@@ -718,7 +766,8 @@ padding: 0 15%;
 
 /* footer section  */
 .footer-section{
-  height: 1400px;
+  padding:  0 0 50px 0;
+  /* height: 1400px; */
 }
 .footer-content{
   padding: 150px 0 0 0;
@@ -815,6 +864,7 @@ padding: 0 15%;
 }
 .base-section .social-icons img{
   float: right;
+  margin-bottom: 20px;
 }
 
  /* Base section end */

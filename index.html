@@ -75,9 +75,11 @@
               <div class="menu-item">
                 <div class="menu-bar">
                   <ul>
-                    <li><a href="#">
+                    <li>
+                      <a href="#">
                         <p>Homepages</p>
-                      </a></li>
+                      </a>
+                    </li>
                     <li>
                       <div class="dropdown-menu-custom" data-bs-toggle="dropdown" aria-expanded="false">
                         <p>Dropdown
@@ -94,21 +96,33 @@
                         </div>
                       </div>
                     </li>
-                    <li><a href="#">
+                    <li>
+                      <a href="#">
                         <p>Blog</p>
-                      </a></li>
-                    <li><a href="#">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
                         <p>Portfolio</p>
-                      </a></li>
-                    <li><a href="#">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
                         <p>Shop</p>
-                      </a></li>
-                    <li><a href="#">
-                        <p>Feature</p>
-                      </a></li>
-                    <li><a href="#">
+                      </a>
+                    </li>
+                    <!-- <li data-bs-toggle="dropdown" aria-expanded="false" >Feature
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="#">item 8</a></li>
+                        <li class="dropdown-item"><a href="#">item 9</a></li>
+                        <li class="dropdown-item"><a href="#">item 10</a></li>
+                      </ul>
+                    </li> -->
+                    <li>
+                      <a href="#">
                         <p>Elements</p>
-                      </a></li>
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div class="mobilemenu"></div>
@@ -266,12 +280,12 @@
               <div class="box" style="background-color: #ffffff;">
                   <div class="box-content">
                     <h1 class="box-title">treatment</h1>
-                    <p><i class="fa-solid fa-square-check"></i>Treatment of rheumatoid arthritis</p>
+                    <p><i class="fa-solid fa-square-check"></i><span>Treatment of rheumatoid arthritis</span></p>
                     <p><i class="fa-solid fa-square-check"></i>Treatment of osteoarthritis</p>  
                     <p><i class="fa-solid fa-square-check"></i>Treatment of osteochondrosis</p>  
                     <p><i class="fa-solid fa-square-check"></i>Intravenous laser irradiation of blood</p>
                     <p><i class="fa-solid fa-square-check"></i>Treatment of ankylosing spondylitis</p>  
-                    <p><i class="fa-solid fa-square-check"></i>Treatment of systemic diseases of connective tissue</p> 
+                    <p><i class="fa-solid fa-square-check"></i><span>Treatment of systemic diseases of connective tissue</span></p> 
                     <div class="large-btn"><a href="#">Make an Appoinment</a></div> 
                   </div>
               </div>
@@ -317,6 +331,8 @@
                 
               </div>
             </div>
+
+
             <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-0">
               <div class="box" style="background-color: #1585ca;">
                 <div class="valuable-services text-center">
@@ -412,9 +428,59 @@
                       <!-- <p>Book an</p> -->
                       <h1>Our Facilities</h1>
                     </div>
-        
-                    <div class="accordion-faciliti" id="accordionPanelsStayOpenExample">
-        
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Outpatient Rehabilitation
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Surgery & Transplants
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Gynaecological Clinic
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                            Persoonal Care System
+                          </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <!-- <div class="accordion-faciliti" id="accordionPanelsStayOpenExample">
                       <div class="accordion-item">
                         <div class="accordion-text collapsed" data-bs-target="#a" data-bs-toggle="collapse"
                           aria-expanded="false">
@@ -454,9 +520,10 @@
                               dolor! Odit accusantium fugit provident velit fuga!</p>
                           </div>
                         </div>
-                      </div>
-        
+                      </div> 
                     </div>
+                    -->
+        
                   </div>
                 </div>
               </div>
@@ -898,22 +965,22 @@
             <div class="row">
               <div class="col-lg-4">
                 <div class="name-area">
-                  <input class="inp-icon" type="text" placeholder="Name" name="name" id="name">
+                  <input class="inp-icon" type="text" placeholder="Name *" name="name" id="name">
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="email-area">
-                  <input type="email" placeholder="Email" name="email" id="email">
+                  <input type="email" placeholder="Email *" name="email" id="email">
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="web-area">
-                  <input type="text" placeholder="Website" name="website" id="webNmae">
+                  <input type="text" placeholder="Website *" name="website" id="webNmae">
                 </div>
               </div>
               <div class="col-12 col-lg-12">
                 <div class="Message-area">
-                  <textarea placeholder="Message" name="message" id="msg" cols="30" rows="10"></textarea>
+                  <textarea placeholder="Message *" name="message" id="msg" cols="30" rows="10"></textarea>
                 </div>
               </div>
             </div>
@@ -940,10 +1007,10 @@
       <div class="base-section">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 order-3 order-sm-3 order-md-3">
               <p>@copyright 2024 <a href="#">CodexThem</a></p>
             </div>
-            <div class="col-12 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-4">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 order-2 order-sm-2 order-md-2">
               <ul>
                 <li><a href="#">Support</a></li> |
                 <li><a href="#">Contact Us</a></li> |
@@ -951,7 +1018,7 @@
                 <li><a href="#">Privacy Policy</a></li> 
               </ul>
             </div>
-            <div class="col-12 col-xs-12 col-sm-2 col-md-2 col-lg-2 col-xl-4">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-4 order-1 order-sm-1 order-md-1">
               <div class="social-icons">
                 <img src="assets/icons/social-media.png" alt="social media">
               </div>
