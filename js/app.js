@@ -1,4 +1,5 @@
 $('.menu-bar').slicknav({
+    duration: 500,
     prependTo:'.mobilemenu'
 });
 // For colorbox 

@@ -8,9 +8,76 @@
     .mobilemenu {
         display: block;
     }
+    
+    .nav-section {
+        padding: 20px 0;
+    }
+    .top-section .social-icon{
+        display: none;
+      }
 
     .menu-bar {
         display: none;
+    }
+
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+
+    .slicknav_menu .slicknav_icon {
+        position: absolute;
+        right: 10px;
+        top: 0;
+    }
+
+    .slicknav_menu {
+        background: none;
+        padding: 0;
+    }
+
+    .slicknav_btn {
+        position: relative;
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .slicknav_nav {
+        background-color: #03263e;
+        position: absolute;
+        right: 100px;
+        top: 100%;
+        width: 40%;
+        text-align: center;
+    }
+
+    .slicknav_nav p {
+        padding: 10px 0 0 20px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+    .slicknav_nav ul {
+        margin: 0;
+    }
+
+    .dropdown-menu-custom .dropdown-menu {
+        transform: translate3d(105px, 20px, 0px) !important;
+    }
+
+    .slicknav_nav a:hover {
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        background: #033150;
+        color: #ffffff;
+    }
+
+    .slicknav_nav a {
+        padding: 2px 0;
+        margin: 0;
+    }
+    .search{
+        margin-top: 6px;
     }
 
     /* banner section start */
@@ -37,12 +104,16 @@
     /* banner section end  */
     /* Apoinment and hour section start */
     .apoinment-hour-section {
-        margin-top: -290px;
+        margin-top: -320px;
     }
 
     .card-lg {
         padding: 30px 35px 0 35px;
     }
+    .card-content{
+        background-color: #ffffff;
+        padding: 70px 30px 60px 30px;
+      }
 
     /* Apoinment and hour section end */
 
@@ -50,17 +121,41 @@
     .box .box-content {
         padding: 90px 20px 70px 30px;
     }
-
     /* service section end */
 
 
     /* our patient say obout us section start */
+    .our-experienced-doctors{
+        padding: 55px 0 0 0;
+      }
+      .our-experienced-doctors .title p{
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      .our-experienced-doctors .text-title{
+        font-size: 22px;
+      }
+      .our-experienced-doctors p{
+        margin-bottom: 25px;
+      }
+      
+    /* about section start  */
+    .about-section{
+        padding:30px 0 40px 0;
+        /* border: 1px solid rgb(138, 27, 4); */
+    }
     .about-container p {
         font-size: 18px;
     }
 
     /* our patient say obout us section end */
 
+    /* base section start  */
+    .base-section {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* base section end  */
 }
 
 
@@ -70,6 +165,12 @@
     body {
         background-color: brown !important;
     }
+    .top-section .content .contact{
+        display: none;
+    }
+    .nav-section {
+        padding: 15px 0;
+    }
 
     .mobilemenu {
         display: block;
@@ -77,6 +178,66 @@
 
     .menu-bar {
         display: none;
+    }
+
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+
+    .slicknav_menu .slicknav_icon {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+
+    .slicknav_menu {
+        background: none;
+        padding: 0;
+    }
+
+    .slicknav_btn {
+        position: relative;
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .slicknav_nav {
+        background-color: #03263e;
+        position: absolute;
+        right: 115px;
+        top: 100%;
+        width: 40%;
+        text-align: center;
+    }
+
+    .slicknav_nav p {
+        padding: 10px 0 0 20px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+    .slicknav_nav ul {
+        margin: 0;
+    }
+
+    .dropdown-menu-custom .dropdown-menu {
+        transform: translate3d(105px, 20px, 0px) !important;
+    }
+
+    .slicknav_nav a:hover {
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        background: #033150;
+        color: #ffffff;
+    }
+
+    .slicknav_nav a {
+        padding: 2px 0;
+        margin: 0;
+    }
+    .search{
+        margin-top: 6px;
     }
 
     /* banner section start */
@@ -186,6 +347,7 @@
     .mobilemenu {
         display: block;
     }
+    
 
     .slicknav_menu .slicknav_menutxt {
         display: none;
